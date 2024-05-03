@@ -1,0 +1,30 @@
+.tagy {
+    border-color: rgb(0, 0, 0);
+    color: black;
+    background-color: rgb(177, 153, 153);
+    display: flex;
+    column-gap: 15px;
+    row-gap: 15px;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    border-radius: 5px 5px;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 20px;
+    padding-block: 30px;
+}
+
+.tagy-single {
+    background-color: rgba(226, 223, 223, 0.199);
+    padding-inline: 15px;
+    margin: 5px;
+}
+.tagy-button {
+    display: inline-block;
+    color: beige;
+    padding: 10px;
+    margin: 20px;
+    margin-inline: 20px;
+    max-width: max-content;
+}
